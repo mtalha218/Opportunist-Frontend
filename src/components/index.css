@@ -1,0 +1,16 @@
+.headings{
+        font-size: 20px;
+            font-family: cursive;
+            font-variant: initial;
+            font-weight: 500;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    z-index: 99999;
+}

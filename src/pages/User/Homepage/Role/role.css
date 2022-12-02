@@ -1,0 +1,36 @@
+/* service */
+.service_section_container {
+    padding: 50px 0;
+}
+
+
+
+.service_img_container {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service_img_container .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.service_description_container {
+    padding: 20px;
+    min-height: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.service_description_container h4 {
+    font-family: 'Poppins-SemiBold' !important;
+}
+
+.service_description_container p {
+    font-family: 'Poppins-Light' !important;
+    font-size: 16px;
+}
+
+/* cc */

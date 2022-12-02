@@ -1,0 +1,32 @@
+
+.testimonials .quote {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 1.5;
+	margin: 40px 0 25px;
+	text-align: center;
+}
+section h3.title {
+	text-transform: capitalize;
+	font: bold 48px "Amatic SC", sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+}
+section p {
+	
+	line-height: 2;
+	padding: 0 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+	.testimonials .quote {
+		font-size: 18px;
+		margin: 15px 0;
+	}
+
+	.testimonials .author {
+		font-size: 14px;
+	}
+}

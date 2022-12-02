@@ -1,0 +1,124 @@
+#contact {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+
+}
+
+
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-right: 20px;
+
+}
+
+.list-item {
+    line-height: 4;
+    color: #fff;
+}
+
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #fff;
+}
+
+.place {
+    margin-left: 62px;
+
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#dropdown-basic {
+    background-color: white !important;
+    border: 1px solid white !important;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+
+
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media-list li a {
+    color: #fff;
+}
+
+.social-media-list li {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+
+
+
+
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, .6);
+}
